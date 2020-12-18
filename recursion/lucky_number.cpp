@@ -35,19 +35,28 @@ Constraints:
 
 bool isLucky(int n, int &counter) {
     // add code here
-    if(counter>n)
+    if(counter>n)   // termination condition
         return 1;
-    if(n % counter == 0)
+    if(n % counter == 0) // "
         return 0;
     
-    int np = n;
-    np = np - np/counter;
-    counter++;
+    int np = n; // Calculating the new position 
+    np = np - np/counter; // " 
+    counter++; // if counter get higher values then the number is lucky
     isLucky(np, counter);
 }
+/*
+Example :  7
 
+1   2    3    4    5    6    7
+counter = 2
+1st loop: 1  3   5   7
+counter = 2+1 = 3
+2nd loop = 1  3  7
+counter = 3+1 = 4
+    n<counter
+terminate, 7 is  a lucky number
 
-
-
+*/
 
 
