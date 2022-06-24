@@ -8,6 +8,8 @@ The plates were kept in box 1. He had to transfer the plates to box 3 using box 
 However, there were some constraints. The old man could only take one plate at a time and he could only place
 a smaller plate on top of a larger plate. He could take a plate only from the top. Help the old man do so.
 
+Note: This is for github test
+
 Note:
 Given any number of plates, they can be transferred from box 1 to box 3 using box 2 using the following steps.
 
